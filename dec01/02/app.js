@@ -35,7 +35,7 @@ function calculatePuzzle() {
     for(i in array) {
         x = parseInt(array[i]);
         
-        while (x != 0) {
+        while (x > 0) {
             x = Math.floor(x / 3) - 2;
 
             if (x < 1) {
